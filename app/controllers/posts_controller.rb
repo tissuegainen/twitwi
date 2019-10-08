@@ -119,7 +119,7 @@ class PostsController < ApplicationController
       base = "app/assets/images/black.jpg"
     # ⑨-10 今回は選択されていない場合は"red"となるようにしている
     else
-      base = "app/assets/images/red.jpg"
+      base = "app/assets/images/syuuchuu.png"
     end
     # ⑨-11 minimagickを使って選択した画像を開き、作成した文字を指定した条件通りに挿入している
     image = MiniMagick::Image.open(base)
